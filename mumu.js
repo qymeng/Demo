@@ -9,6 +9,7 @@ let obj = JSON.parse($response.body);
 
 
 if (url.includes("/api/v1/user/info")) {
+    obj.data.trial_status = 1
     obj.data.current_device.trial_end_at = end_at
     obj.data.member_status = 1
     obj.data.member_expired_at = end_at
