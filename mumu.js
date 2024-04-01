@@ -4,6 +4,8 @@ const isLoon = typeof $loon != "undefined"
 const isSurge = typeof $httpClient != "undefined" && !isLoon
 let end_at = 1720086399
 
+console.log("我触发辣")
+
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
