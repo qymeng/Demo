@@ -5,4 +5,4 @@
 hostname = %APPEND% api-pro.mumu.163.com
 
 [Script]
-用户信息 = type=http-response,pattern=^https:\/\/api-pro\.mumu\.163\.com\/api\/v1\/user\/info$,script-path=https://raw.githubusercontent.com/qymeng/Demo/main/mumu.js,requires-body=true
+用户信息 = type=http-response,pattern=^https?://api-pro\.mumu\.163\.com/api/v1/user/info/s,script-path=https://raw.githubusercontent.com/qymeng/Demo/main/mumu.js,requires-body=true
